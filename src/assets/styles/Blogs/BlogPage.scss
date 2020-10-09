@@ -1,0 +1,19 @@
+.blogs {
+    min-height: 720px;
+    &__list {
+        &__item {
+            cursor: pointer;
+            &__img {
+                width: 80px;
+            }
+        }
+    }
+}
+
+.input__label {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.28;
+    text-align: left;
+    color: #012e50;
+}

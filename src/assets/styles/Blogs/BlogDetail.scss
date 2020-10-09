@@ -1,0 +1,30 @@
+.blog__detail {
+    &__id {
+        font-family: EncorpadaClassicBold;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #000;
+    }
+    &__title {
+        font-family: EncorpadaClassicBold;
+        font-size: 36px;
+        color: #000;
+        font-weight: 700;
+    }
+    &__content {
+        font-family: SangBleuSans;
+        font-size: 18px;
+        color: #000;
+    }
+    &__button {
+        button {
+            font-family: SangBleuSans;
+            font-size: 18px;
+            color: #ffffff;
+            padding: 1rem 2.5rem;
+            background-color: #000;
+            border: none;
+        }
+    }
+}
